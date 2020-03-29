@@ -6,12 +6,16 @@ https://github.com/andreknieriem/photobooth
 
 
 * In public_html is all the Web Code. <br>
-* In the folder mysql is MYSQL dump. This dump is an example.
+* Change the API-Key ```$api_key_value = "<key>";``` in api/post-esp-data.php
+* In the folder mysql is MYSQL dump. This dump is an example. <br>
+* Install php-curl -> ```sudo apt-get install php-curl```<br>
+
 
 
 _**ATTENTION**_
 
 The following photobooth configuration must be adjusted:
+* Change the API-Url ```https://yourdomain.com/api/post-esp-data.php``` and API-Key in print.php and takePic.php
 
 ### <web_home>/api/print.php
 
