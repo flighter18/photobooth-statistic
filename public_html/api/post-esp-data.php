@@ -16,7 +16,7 @@
 
 # IF REQUEST COMES FROM DEV IT SAVES THE DATA IN THE DEV DB
 #############################################################
-include "dbconnect.php";
+include "../dbconnect.php";
 
 
 
